@@ -1,3 +1,3 @@
-# Editor Vim - Java
+### Editor Vim - Java
 
-### Customizando editor VIM para os campeonatos de programação
+Customizando editor VIM para os campeonatos de programação
