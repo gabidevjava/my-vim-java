@@ -41,6 +41,12 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" Barra lateral que exibe o "esqueleto" do projeto, possibilitando a navegação entre os aquivos.
+Plugin 'preservim/nerdtree'
+
+" NERDTree automaticamente quando o vim é inicializado
+autocmd vimenter * NERDTree
+
 " Vim Fugitive - Permite comandos do GIT dentro do Vim
 Plugin 'tpope/vim-fugitive'
 
