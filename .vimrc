@@ -47,6 +47,9 @@ Plugin 'preservim/nerdtree'
 " Insert or delete brackets, parens, quotes in pair
 Plugin 'jiangmiao/auto-pairs'
 
+" barra personalizada no início e no final da janela do vim.
+Plugin 'vim-airline/vim-airline'
+
 " NERDTree automaticamente quando o vim é inicializado
 autocmd vimenter * NERDTree
 
