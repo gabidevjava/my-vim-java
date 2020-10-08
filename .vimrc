@@ -44,11 +44,11 @@ Plugin 'VundleVim/Vundle.vim'
 " Barra lateral que exibe o "esqueleto" do projeto, possibilitando a navegação entre os aquivos.
 Plugin 'preservim/nerdtree'
 
+" Insert or delete brackets, parens, quotes in pair
+Plugin 'jiangmiao/auto-pairs'
+
 " NERDTree automaticamente quando o vim é inicializado
 autocmd vimenter * NERDTree
-
-" Vim Fugitive - Permite comandos do GIT dentro do Vim
-Plugin 'tpope/vim-fugitive'
 
 " ====== End Plugins ======
 call vundle#end()            " required
