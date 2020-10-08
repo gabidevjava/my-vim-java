@@ -24,7 +24,28 @@ set autowrite                     " Gravação automática a cada alteração
 set showcmd                       " Mostra o comando sendo executado
 set clipboard=unnamedplus         " copy clipboard
 set ignorecase                    " faz o vim ignorar maiúsculas e minúsculas nas buscas
-set hls 			   " destaca com cores os termos procurados
+set hls 			  " destaca com cores os termos procurados
 
 "turn on syntax highlighting
 syntax on
+
+" VUNDLE =====================================================================->
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" ====== Begin Plugins ======
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Vim Fugitive - Permite comandos do GIT dentro do Vim
+Plugin 'tpope/vim-fugitive'
+
+" ====== End Plugins ======
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" =====================================================================|| VUNDLE
