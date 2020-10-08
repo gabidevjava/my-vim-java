@@ -29,6 +29,11 @@ set hls 			  " destaca com cores os termos procurados
 "turn on syntax highlighting
 syntax on
 
+" Desativa SWAP
+set noswapfile
+set nobackup
+set nowb
+
 " VUNDLE =====================================================================->
 
 set nocompatible              " be iMproved, required
