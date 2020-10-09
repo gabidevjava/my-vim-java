@@ -68,6 +68,6 @@ filetype plugin indent on    " required
 
 " APARÊNCIA =================================================================->
 
-let g:airline_theme='light'
+let g:airline_theme='dark'
 
 " ==================================================================|| APARÊNCIA
