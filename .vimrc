@@ -60,6 +60,12 @@ Plugin 'vim-airline/vim-airline-themes'
 " NERDTree automaticamente quando o vim é inicializado
 autocmd vimenter * NERDTree
 
+" Theme PaperColor
+Plugin 'NLKNguyen/papercolor-theme'
+set t_Co=256 
+set background=dark
+colorscheme PaperColor
+
 " ====== End Plugins ======
 call vundle#end()            " required
 filetype plugin indent on    " required
