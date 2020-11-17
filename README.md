@@ -10,3 +10,5 @@ Customizando editor VIM para os campeonatos de programação
 
 
 ![](/img/papercolor1.png)
+
+### My Plugins
