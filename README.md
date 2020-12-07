@@ -1,4 +1,4 @@
-### My Vim - Java
+### My Vim Customizado - Java
 
 ##### Autora: Gabriela Guedes
 
